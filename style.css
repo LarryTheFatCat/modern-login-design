@@ -26,3 +26,30 @@ html {
     background-color: #fdfeff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3em;
+    width: 40vh;
+    height: 4vh;
+    outline: none;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border-color: #2A92EE;
+    border-style: solid;
+}
+
+.sign-up::placeholder {
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.title {
+    font-weight: 600;
+    font-family: 'Hind Siliguri', 'Arial', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -3em;
+}
