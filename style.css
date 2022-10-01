@@ -95,3 +95,24 @@ html {
     border-color: #2A92EE;
     border-style: solid;
 }
+
+.forgot-password {
+    position: relative;
+    top: 2.5em;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.forgotpassword {
+    color: #2A92EE;
+}
+
+.forgotpassword:hover {
+    color: #2a92eeaa;
+}
+
+a {
+    text-decoration: none;
+}
