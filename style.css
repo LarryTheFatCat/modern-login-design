@@ -42,8 +42,8 @@ html {
 }
 
 .sign-up::placeholder {
-    font-size: 13px;
-    color:rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.859);
 }
 
 .password {
@@ -62,6 +62,7 @@ html {
 
 .password::placeholder {
     font-size: 14px;
+    color: rgba(0, 0, 0, 0.86);
 }
 
 .title {
