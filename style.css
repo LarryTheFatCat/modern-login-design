@@ -46,6 +46,24 @@ html {
     color:rgba(0, 0, 0, 0.87);
 }
 
+.password {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1em;
+    width: 40vh;
+    height: 4vh;
+    outline: none;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border-color: #2A92EE;
+    border-style: solid;
+}
+
+.password::placeholder {
+    font-size: 14px;
+}
+
 .title {
     font-weight: 600;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;

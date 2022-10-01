@@ -11,19 +11,13 @@
     <div class="container">
         <div class="card">
             <div class="big-text">
-                <h1 class="title">Login to Your Account</h1>
+                <h1 class="title">Login to Your <span class="word-title">Account</span></h1>
             </div>
-            <div class="input">
-                <input class="sign-up" id="signup" placeholder="Email" required>
-                <input class="pwrd" type="password" id="password" placeholder="********" required>
-            </div>
-            <div class="button">
-                <a href="register.html">
-                    <button>
-                        Sign In
-                    </button>
-                </a>
-            </div>
+                <form method="POST" action="register.html">
+                    <input type="text" class="sign-up" id="signup" placeholder="JohnDoe@example123.com" name="name" required>
+                    <input type="password" name="password" class="password" id="pwd" placeholder="JohnDoe1996!" required>
+                        <button type="submit" class="button" aria-required="true">Send</button>
+               </form>
         </div>
     </div>
 </body>
