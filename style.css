@@ -72,3 +72,26 @@ html {
     position: relative;
     top: -3em;
 }
+
+.button {
+    position: relative;
+    top: 2em;
+    width: 40vh;
+    height: 4vh;
+    background-color: #2A92EE;
+    color: #fdfeff;
+    border-radius: 2px;
+    border-color: #2A92EE;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2a92eeaa;
+    color: #ffffffaa;
+    border-color: #2A92EE;
+    border-style: solid;
+}
