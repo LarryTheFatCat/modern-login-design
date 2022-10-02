@@ -19,26 +19,26 @@
                     <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
                     
                     <script type="module">
-                        function redirectAndCheck() {
-                            const email = document.getElementsByClassName("sign-up")[0].value;
-                            const password = document.getElementsByClassName("password")[0].value;
-                            if(!email || !password) {
-                                alert("Please fill in all the fields");
-                                    return;
-                                }
-                                else {
-                                    window.location = "main-page.html"
-                                }
-                                // check if email doesn't contain @ and .
-                                if(!email.includes("@") || !email.includes(".")) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                                if(password.length < 8) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                            }
+                    function redirectAndCheck() {
+                        const email = document.getElementsByClassName("sign-up")[0].value;
+                        const password = document.getElementsByClassName("password")[0].value;
+                        if(!email || !password) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                        else {
+                            window.location = "main-page.html"
+                        }
+                        // check if email doesn't contain @ and .
+                        if(!email.includes("@") || !email.includes(".")) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                        if(password.length < 8) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                    }
                             </script>
 
                     <div class="forgot-password" id="no-pwd">
