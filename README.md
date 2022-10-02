@@ -72,4 +72,4 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Finish Forgot password screen
 - [ ] Finish main screen
 - [x] Add google sign up button
-- [ ] Fix google sign up error screen
+- [x] Fix google sign up error screen
