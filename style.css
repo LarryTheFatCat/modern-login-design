@@ -193,3 +193,9 @@ a {
     background-color: #fdfeff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
+
+.g-signin2 {
+    position: relative;
+    top: 6cm;
+    left: 1cm;
+}

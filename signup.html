@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <meta name="google-signin-client_id" content="805571329200-ugb54ccrhqedbohotdoqh34amb4t42fh.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Modern-Rustic-Design</title>
 </head>
 <body>
@@ -18,6 +20,28 @@
                 <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone-Number" name="name" required>
                 <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
                 <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
+                <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true"></div>
+                <script>
+                function onSuccess(googleUser) {
+                    console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+                }
+                function onFailure(error) {
+                    console.log(error);
+                }
+                function renderButton() {
+                    gapi.signin2.render('my-signin2', {
+                        'scope': 'profile email',
+                        'width': 240,
+                        'height': 50,
+                        'longtitle': true,
+                        'theme': 'dark',
+                        'onsuccess': onSuccess,
+                        'onfailure': onFailure
+                    });
+                }
+                </script>
+
+                </div>
                 <button type="submit" class="button" onclick="redirectAndCheck()">Sign Up</button>
                 <script>
                 function redirectAndCheck() {
@@ -47,10 +71,10 @@
                 }
                 </script>
             </div>
-            <div class="login">
-
-            </div>
         </div>
     </div>
 </body>
+<footer>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</footer>
 </html>

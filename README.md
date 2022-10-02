@@ -60,9 +60,8 @@ Have any issues? Feel free to open an issue on the GitHub repository and I will 
 Feel free to contribute to this project by opening a pull request on the GitHub repository. I will review it and merge it if it is good.
 
 
-# todo 
+# Todo List
 
-- [ ] Add more features
 - [ ] Add more screenshots
 - [ ] Check for bugs
 - [x] Auto Assign labels and users for issues/features and pull requests
@@ -72,3 +71,5 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Finish Sign up screen
 - [ ] Finish Forgot password screen
 - [ ] Finish main screen
+- [x] Add google sign up button
+- [ ] Fix google sign up error screen
