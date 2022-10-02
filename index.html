@@ -19,15 +19,12 @@
                     <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
                     <script>
                         function redirectAndCheck() {
-                            let email = document.getElementsByClassName("sign-up")[0].value;
-                            let password = document.getElementsByClassName("password")[0].value;
+                            const email = document.getElementsByClassName("sign-up")[0].value;
+                            const password = document.getElementsByClassName("password")[0].value;
                             // check if the contents are in email input and password input are empty
                             if(!email || !password) {
                                 alert("Please fill in all the fields");
                                     return;
-                                }
-                                else {
-                                    window.location = "main-page.html"
                                 }
                                 // check if email doesn't contain @ and .
                                 if(!email.includes("@") || !email.includes(".")) {
@@ -40,7 +37,7 @@
                                     return;
                                 }
                             }
-                            </script>
+                    </script>
 
                     <div class="forgot-password" id="no-pwd">
                         <a href="forgotpassword.html">

@@ -134,3 +134,12 @@ a {
 .noacc-ref:hover {
     color: #2a92eeaa;
 }
+
+.title-contents {
+    font-family: inherit;
+    text-align: center;
+    position: relative;
+    top: 0.5cm;
+    font-size: 14px;
+    width: 9.9cm;
+}
