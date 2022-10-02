@@ -19,7 +19,7 @@ html {
     width: 10cm;
     height: 10cm;
     background-color: #fdfeff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 .sign-up {
@@ -71,8 +71,8 @@ html {
     position: relative;
     top: 3.5cm;
     left: 1cm;
-    width: 40vh;
-    height: 4vh;
+    width: 8cm;
+    height: 1cm;
     background-color: #2A92EE;
     color: #fdfeff;
     border-radius: 2px;
@@ -120,7 +120,7 @@ a {
     left: 5.1cm;
     font-size: 14px;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
-    width: 20vh;
+    width: 4cm;
     text-align: center;
     cursor: default;
 }
