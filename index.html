@@ -17,45 +17,45 @@
                 <input type="text" class="sign-up" id="signup" placeholder="JohnDoe@example123.com" name="name" required>
                 <input type="password" name="password" class="password" id="pwd" placeholder="JohnDoe1996!" required>
                     <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
-                        <script>
-                            function redirectAndCheck() {
-                                const email = document.getElementsByClassName("sign-up")[0].value;
-                                const password = document.getElementsByClassName("password")[0].value;
-                                if(!email || !password) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                                else {
-                                    window.location = "main-page.html"
-                                }
-                                // check if email doesn't contain @ and .
-                                if(!email.includes("@") || !email.includes(".")) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                                if(password.length < 8) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                            }
-                        </script>
-                        <div class="forgot-password" id="no-pwd">
-                            <a href="forgotpassword.html">
-                                <p class="forgotpassword">
-                                    Forgot Password?
-                                </p>
+                    <script>
+                    function redirectAndCheck() {
+                        const email = document.getElementsByClassName("sign-up")[0].value;
+                        const password = document.getElementsByClassName("password")[0].value;
+                        if(!email || !password) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                        else {
+                            window.location = "main-page.html"
+                        }
+                        // check if email doesn't contain @ and .
+                        if(!email.includes("@") || !email.includes(".")) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                        if(password.length < 8) {
+                            alert("invalid email or password");
+                            return;
+                        }
+                    }
+                    </script>
+                    <div class="forgot-password" id="no-pwd">
+                        <a href="forgotpassword.html">
+                            <p class="forgotpassword">
+                                Forgot Password?
+                            </p>
+                        </a>
+                    </div>
+                    <div class="noacc">
+                        <p>
+                            Don't have an Account? 
+                            <a href="signup.html" class="noacc-ref">
+                                Click Here
                             </a>
-                        </div>
-                        <div class="noacc">
-                                <p>
-                                    Don't have an Account? 
-                                    <a href="signup.html" class="noacc-ref">
-                                        Click Here
-                                    </a>
-                                </p>
-                        </div>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
