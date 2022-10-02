@@ -66,5 +66,6 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Add more screenshots
 - [ ] Check for bugs
 - [x] Auto Assign labels and users for issues/features and pull requests
-- [ ] Fully complete issue templates
+- [x] Fully complete issue templates
 - [ ] Fully complete pull request templates
+- [ ] Add a Pull request auto assign label and user feature
