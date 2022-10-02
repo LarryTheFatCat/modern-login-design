@@ -143,3 +143,47 @@ a {
     font-size: 14px;
     width: 9.9cm;
 }
+
+
+.sign-up-one {
+    position: relative;
+    top: 1.9cm;
+}
+
+.password-one {
+    position: relative;
+    top: 2.5cm;
+}
+
+.password-confirm {
+    position: relative;
+    top: 3.2cm;
+}
+
+.username {
+    position: relative;
+    top: 1.3cm;
+    left: 1cm;
+    width: 8cm;
+    height: 1cm;
+    outline: none;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border-color: #2A92EE;
+    border-style: solid;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.86);
+}
+
+.username::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.86);
+}
+
+.new {
+    justify-content: center;
+    width: 10cm;
+    height: 14cm;
+    background-color: #fdfeff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}

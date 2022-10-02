@@ -13,6 +13,41 @@
             <div class="title-contents">
                 <h1>Please sign up here to recieve all benefits</h1>
             </div>
+            <div class="input">
+                <input type="text" class="username" id="usernme" placeholder="Username" name="username" required>
+                <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone-Number" name="name" required>
+                <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
+                <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
+                <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
+                <script>
+                function redirectAndCheck() {
+                    const email = document.getElementsByClassName("sign-up")[0].value;
+                    const password = document.getElementsByClassName("password")[0].value;
+                    const username = document.getElementsByClassName("username")[0].value;
+                    const passwordconfirm = document.getElementsByClassName("password-confirm")[0].value;
+                    // check if the contents are in email input and password input are empty
+                    if(!email || !password || !username || !passwordconfirm) {
+                        alert("Please fill in all the fields");
+                        return;
+                    }
+                    // check if email doesn't contain @ and .
+                    if(!email.includes("@") || !email.includes(".")) {
+                        alert("invalid email or password");
+                        return;
+                    }
+                    // check if the password length is less then 8
+                    if(password.length < 8) {
+                        alert("invalid email or password");
+                        return;
+                    }
+                    if(password !== passwordConfirm) {
+                        alert("passwords do not match");
+                        return;
+                    }
+                }
+                </script>
+            </div>
+
         </div>
     </div>
 </body>
