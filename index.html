@@ -17,28 +17,29 @@
                 <input type="text" class="sign-up" id="signup" placeholder="JohnDoe@example123.com" name="name" required>
                 <input type="password" name="password" class="password" id="pwd" placeholder="JohnDoe1996!" required>
                     <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
-                    
-                    <script type="module">
-                    function redirectAndCheck() {
-                        const email = document.getElementsByClassName("sign-up")[0].value;
-                        const password = document.getElementsByClassName("password")[0].value;
-                        if(!email || !password) {
-                            alert("invalid email or password");
-                            return;
-                        }
-                        else {
-                            window.location = "main-page.html"
-                        }
-                        // check if email doesn't contain @ and .
-                        if(!email.includes("@") || !email.includes(".")) {
-                            alert("invalid email or password");
-                            return;
-                        }
-                        if(password.length < 8) {
-                            alert("invalid email or password");
-                            return;
-                        }
-                    }
+                    <script>
+                        function redirectAndCheck() {
+                            let email = document.getElementsByClassName("sign-up")[0].value;
+                            let password = document.getElementsByClassName("password")[0].value;
+                            // check if the contents are in email input and password input are empty
+                            if(!email || !password) {
+                                alert("Please fill in all the fields");
+                                    return;
+                                }
+                                else {
+                                    window.location = "main-page.html"
+                                }
+                                // check if email doesn't contain @ and .
+                                if(!email.includes("@") || !email.includes(".")) {
+                                    alert("invalid email or password");
+                                    return;
+                                }
+                                // check if the password length is less then 8
+                                if(password.length < 8) {
+                                    alert("invalid email or password");
+                                    return;
+                                }
+                            }
                             </script>
 
                     <div class="forgot-password" id="no-pwd">
