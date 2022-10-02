@@ -11,14 +11,14 @@
     <div class="_container">
         <div class="card new">
             <div class="title-contents">
-                <h1>Please sign up here to recieve all benefits</h1>
+                <h1>Sign up to recieve access</h1>
             </div>
             <div class="input">
                 <input type="text" class="username" id="usernme" placeholder="Username" name="username" required>
                 <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone-Number" name="name" required>
                 <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
                 <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
-                <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
+                <button type="submit" class="button" onclick="redirectAndCheck()">Sign Up</button>
                 <script>
                 function redirectAndCheck() {
                     const email = document.getElementsByClassName("sign-up")[0].value;
@@ -47,7 +47,9 @@
                 }
                 </script>
             </div>
+            <div class="login">
 
+            </div>
         </div>
     </div>
 </body>
