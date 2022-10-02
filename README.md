@@ -60,7 +60,7 @@ Have any issues? Feel free to open an issue on the GitHub repository and I will 
 Feel free to contribute to this project by opening a pull request on the GitHub repository. I will review it and merge it if it is good.
 
 
-# todo 
+# TODO 
 
 - [ ] Add more features
 - [ ] Add more screenshots
