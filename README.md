@@ -63,12 +63,12 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 # Todo List
 
 - [ ] Add more screenshots
-- [ ] Check for bugs
+- [x] Check for bugs
 - [x] Auto Assign labels and users for issues/features and pull requests
 - [x] Fully complete issue templates
 - [x] Fully complete pull request templates
 - [x] Add a Pull request auto assign label and user feature
-- [ ] Finish Sign up screen
+- [x] Finish Sign up screen
 - [ ] Finish Forgot password screen
 - [ ] Finish main screen
 - [x] Add google sign up button
