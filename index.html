@@ -16,25 +16,25 @@
             <div class="i-b">
                 <input type="text" class="sign-up" id="signup" placeholder="JohnDoe@example123.com" name="name" required>
                 <input type="password" name="password" class="password" id="pwd" placeholder="JohnDoe1996!" required>
-                    <button type="submit" class="button" onclick="redirectAndCheck()">Send</button>
+                    <button type="submit" class="button" onclick="redirectAndCheck()">Login</button>
                         <script>
                             function redirectAndCheck() {
                                 const email = document.getElementsByClassName("sign-up")[0].value;
                                 const password = document.getElementsByClassName("password")[0].value;
                                 if(!email || !password) {
-                                    alert("Please fill out email and or password before submitting");
+                                    alert("invalid email or password");
                                     return;
                                 }
                                 else {
                                     window.location = "main-page.html"
                                 }
-                                // check if email contains @ and .
+                                // check if email doesn't contain @ and .
                                 if(!email.includes("@") || !email.includes(".")) {
-                                    alert("Please fill out email and or password before submitting");
+                                    alert("invalid email or password");
                                     return;
                                 }
                                 if(password.length < 8) {
-                                    alert("Please fill out email and or password before submitting");
+                                    alert("invalid email or password");
                                     return;
                                 }
                             }
@@ -45,6 +45,14 @@
                                     Forgot Password?
                                 </p>
                             </a>
+                        </div>
+                        <div class="noacc">
+                                <p>
+                                    Don't have an Account? 
+                                    <a href="signup.html" class="noacc-ref">
+                                        Click Here
+                                    </a>
+                                </p>
                         </div>
             </div>
         </div>
