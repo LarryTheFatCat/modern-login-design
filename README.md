@@ -77,3 +77,8 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Move alerts to the sides to the bottom of the inputs in deep red with shaking animation
 - [ ] Add a toggle dark mode and light mode button to the bottom right of the screen with a moon and sun icon
 - [ ] Add a toggle password visibility button to the password input
+- [ ] Add Main Screen UI
+- [ ] When user signs up and brings it to main screen UI, add a welcome message to the top of the screen
+- [ ] When User signs up and brings it to main screen UI, have it show a "Welcome" and then grab user contents name and display it. For example, if the user's name is "John Doe", it would say "Welcome John Doe"
+- [ ] Add a "Sign out" button to the top right of the screen (main Screen)
+
