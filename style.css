@@ -13,7 +13,8 @@ html {
     height: 100vh;
 
 }
-/*Card*/
+
+/*Major Buttons / Inputs */
 .card {
     justify-content: center;
     width: 10cm;
@@ -21,8 +22,7 @@ html {
     background-color: #fdfeff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
-/*End Card*/
-/*Major Buttons / Inputs */
+
 .sign-up {
     position: relative; 
     top: 2cm;

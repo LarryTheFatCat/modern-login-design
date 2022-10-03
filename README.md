@@ -62,7 +62,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 
 # Todo List
 
-- [ ] Add more screenshots
+- [ ] Add Screenshots for: Main, Sign up, and Forgot password screens
 - [x] Check for bugs
 - [x] Auto Assign labels and users for issues/features and pull requests
 - [x] Fully complete issue templates
