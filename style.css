@@ -157,10 +157,54 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
+.title-txt {
+    position: relative;
+    top: 0.7cm;
+    left: 1cm;
+    width: 300px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.emailInput {
+    position: relative;
+    top: 1.8cm;
+    left: 1cm;
+    width: 8cm;
+    height: 1cm;
+    outline: none;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border-color: #2A92EE;
+    border-style: solid;
+    text-indent: 0.3cm;
+}
+
+.btnNew {
+    position: relative;
+    top: 3cm;
+}
+
+.knewPwd {
+    position: relative;
+    top: 3.2cm;
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+}
+
+.e:hover {
+    color: #2a92eeaa;
+}
+
 /*End of major contents*/
 
 /*Placeholders*/
 .sign-up::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.859);
+}
+.emailInput::placeholder {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.859);
 }
