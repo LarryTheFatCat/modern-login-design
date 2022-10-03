@@ -6,7 +6,9 @@ This is a simple, modern, and easy to use UI template that is built with HTML, C
 
 # Screenshots
 <img src="imgs/login.png" alt="">
+<br>
 <img src="forgotpassword.png" alt="">
+<br>
 <img src="signup.png" alt="">
 # Installation
 
