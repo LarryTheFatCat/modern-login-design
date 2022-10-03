@@ -75,7 +75,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fully complete pull request templates
 - [x] Add a Pull request auto assign label and user feature
 - [x] Finish Sign up screen
-- [ ] Finish Forgot password screen
+- [x] Finish Forgot password screen
 - [x] Add google sign up button
 - [x] Fix google sign up error screen
 - [x] Add box shadowing to buttons
