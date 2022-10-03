@@ -98,16 +98,16 @@ html {
     top: 3.5cm;
     left: 1cm;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
     cursor: pointer;
-    width: 15vh;
+    width: 3cm;
+    text-align: center;
 }
 
-.forgotpassword {
+.clickHere_ {
     color: #2A92EE;
 }
-
 .forgotpassword:hover {
     color: #2a92eeaa;
 }
@@ -118,7 +118,7 @@ a {
 
 .noacc {
     position: relative;
-    top: 2.9cm;
+    top: 2.3cm;
     left: 5.1cm;
     font-size: 14px;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
