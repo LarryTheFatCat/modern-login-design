@@ -20,14 +20,18 @@
                 <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone-Number" name="name" required>
                 <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
                 <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
-                <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true"></div>
+                <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true" onclick="redirectPage()"></div>
                 <script>
                 function onSuccess(googleUser) {
                     console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-                    window.location = "index.html";
                 }
                 function onFailure(error) {
                     console.log(error);
+                }
+                function redirectPage() {
+                    if(googleUser(onSuccess)) {
+                        window.location.href = "https://www.google.com";
+                    }
                 }
                 </script>
 
