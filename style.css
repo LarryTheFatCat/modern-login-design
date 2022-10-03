@@ -13,7 +13,7 @@ html {
     height: 100vh;
 
 }
-
+/*Card*/
 .card {
     justify-content: center;
     width: 10cm;
@@ -21,7 +21,8 @@ html {
     background-color: #fdfeff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
-
+/*End Card*/
+/*Major Buttons / Inputs */
 .sign-up {
     position: relative; 
     top: 2cm;
@@ -34,11 +35,6 @@ html {
     border-color: #2A92EE;
     border-style: solid;
     text-indent: 0.3cm;
-}
-
-.sign-up::placeholder {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.859);
 }
 
 .password {
@@ -55,10 +51,7 @@ html {
     text-indent: 0.3cm;
 }
 
-.password::placeholder {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.86);
-}
+
 
 .title {
     font-weight: 600;
@@ -84,13 +77,13 @@ html {
     font-weight: 600;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
     cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 .button:hover {
     background-color: #2a92eeaa;
     color: #ffffffaa;
-    border-color: #2A92EE;
-    border-style: solid;
+    border-color: #2a92eeaa;
 }
 
 .forgot-password {
@@ -100,20 +93,9 @@ html {
     font-size: 14px;
     font-weight: 400;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
-    cursor: pointer;
     width: 3cm;
     text-align: center;
-}
-
-.clickHere_ {
-    color: #2A92EE;
-}
-.forgotpassword:hover {
-    color: #2a92eeaa;
-}
-
-a {
-    text-decoration: none;
+    cursor: default;
 }
 
 .noacc {
@@ -127,16 +109,6 @@ a {
     cursor: default;
 }
 
-.noacc-ref {
-    color: #2A92EE;
-    font-weight: 600;
-
-}
-
-.noacc-ref:hover {
-    color: #2a92eeaa;
-}
-
 .title-contents {
     font-family: inherit;
     text-align: center;
@@ -144,22 +116,6 @@ a {
     top: 0.5cm;
     font-size: 14px;
     width: 9.9cm;
-}
-
-
-.sign-up-one {
-    position: relative;
-    top: 1.9cm;
-}
-
-.password-one {
-    position: relative;
-    top: 2.5cm;
-}
-
-.password-confirm {
-    position: relative;
-    top: 3.2cm;
 }
 
 .username {
@@ -178,9 +134,19 @@ a {
     text-indent: 0.3cm;
 }
 
-.username::placeholder {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.86);
+.existingAccount {
+    text-align: center;
+    position: relative;
+    top: 4.7cm;
+    left: 2.3cm;
+    width: 5.3cm;
+    font-size: 15px;
+}
+
+.g-signin2 {
+    position: relative;
+    top: 5.3cm;
+    left: 1cm;
 }
 
 .new {
@@ -191,26 +157,70 @@ a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
-.g-signin2 {
-    position: relative;
-    top: 5.3cm;
-    left: 1cm;
+/*End of major contents*/
+
+/*Placeholders*/
+.sign-up::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.859);
 }
 
-.existingAccount {
-    text-align: center;
-    position: relative;
-    top: 4.7cm;
-    left: 2.3cm;
-    width: 5.3cm;
-    font-size: 15px;
+.username::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.86);
 }
+.password::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.86);
+}
+/*End of Placeholders*/
+/*Random CSS code I found*/
+.clickHere_ {
+    color: #2A92EE;
+}
+.clickHere_:hover {
+    color: #2a92eeaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.noacc-ref {
+    color: #2A92EE;
+    font-weight: 600;
+
+}
+
+.noacc-ref:hover {
+    color: #2a92eeaa;
+}
+
+
+.sign-up-one {
+    position: relative;
+    top: 1.9cm;
+}
+
+.password-one {
+    position: relative;
+    top: 2.5cm;
+}
+
+.password-confirm {
+    position: relative;
+    top: 3.2cm;
+}
+
+
 
 .clickHere {
     font-weight: 600;
+    color: #2A92EE;
 }
 
 ._button {
     position: relative;
     top: 3cm;
 }
+/*End of Random CSS code I found*/

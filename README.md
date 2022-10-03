@@ -72,9 +72,8 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Finish Forgot password screen
 - [x] Add google sign up button
 - [x] Fix google sign up error screen
-- [ ] Add box shadowing to buttons
-- [ ] Organize CSS into sections and add comments
+- [x] Add box shadowing to buttons
+- [x] Organize CSS into sections and add comments
 - [ ] Move alerts to the sides to the bottom of the inputs in deep red with shaking animation
 - [ ] Add a toggle dark mode and light mode button to the bottom right of the screen with a moon and sun icon
 - [ ] Add a toggle password visibility button to the password input
-- [ ] 
