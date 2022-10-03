@@ -181,6 +181,9 @@ html {
 .clickHere_:hover {
     color: #2a92eeaa;
 }
+.clickHere:hover {
+    color: #2a92eeaa;
+}
 
 a {
     text-decoration: none;
