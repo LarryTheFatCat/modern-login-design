@@ -85,7 +85,11 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] When User signs up and brings it to main screen UI, have it show a "Welcome" and then grab user contents name and display it. For example, if the user's name is "John Doe", it would say "Welcome John Doe"
 - [ ] Add a "Sign out" button to the top right of the screen (main Screen)
 - [ ] Add an alert side bar for Cookies use on main page
-- [ ] Include a captcha hover as a saftey provider.
+- [x] Include a captcha hover as a saftey provider.
 - [x] Change 'login' to sign in
 - [x] forgot password screen, change 'forgot password' to 'reset password'
 - [x] Change 'sign up' to 'create account'
+- [ ] Factor in the use of a password manager
+- [ ] Never store passwords in plain text
+- [ ] Include a password strength meter
+- [ ] Include a password generator
