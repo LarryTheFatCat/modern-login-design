@@ -85,8 +85,6 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] forgot password screen, change 'forgot password' to 'reset password'
 - [x] Change 'sign up' to 'create account'
 - [ ] Include a password strength meter
-- [ ] Include a password generator
-
 
 # Notes
 
