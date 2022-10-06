@@ -48,9 +48,7 @@ For more information, please refer to <https://unlicense.org>
 
 # Contact
 
-If you have any questions, feel free to contact me on Discord as I am always active there
-
-Discord: 'Two#6969'
+If you have any questions, feel free to make an issue to contact me. There will be a questions section to on GitHub issues that you can create yourself stating your question.
 
 # Credits
 
