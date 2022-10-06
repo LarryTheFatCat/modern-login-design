@@ -80,16 +80,31 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fix google sign up error screen
 - [x] Add box shadowing to buttons
 - [x] Organize CSS into sections and add comments
-- [ ] Add Main Screen UI
-- [ ] When user signs up and brings it to main screen UI, add a welcome message to the top of the screen
-- [ ] When User signs up and brings it to main screen UI, have it show a "Welcome" and then grab user contents name and display it. For example, if the user's name is "John Doe", it would say "Welcome John Doe"
-- [ ] Add a "Sign out" button to the top right of the screen (main Screen)
-- [ ] Add an alert side bar for Cookies use on main page
 - [x] Include a captcha hover as a saftey provider.
 - [x] Change 'login' to sign in
 - [x] forgot password screen, change 'forgot password' to 'reset password'
 - [x] Change 'sign up' to 'create account'
-- [ ] Factor in the use of a password manager
-- [ ] Never store passwords in plain text
 - [ ] Include a password strength meter
 - [ ] Include a password generator
+
+
+# Notes
+
+Just so you guys know if you do wanna use this, there are a couple things to change
+
+
+## Major changes you must do.
+
+Change the DataSite Key for the google Captcha V2 Badge
+
+``` 
+                <div class="g-recaptcha"
+                **data-sitekey="6Ld6ElsiAAAAAPe-eu5IS0U-ODART0K2ebCLln_9"**
+                data-callback="onSubmit"
+                data-size="invisible">
+          </div>
+```
+
+Change this so you can link to a proper domain so the reCaptchaV2 Badge will actually work and not give you an error.
+
+Link the Buttons to a main page, follow color pattern so it actually looks good...
