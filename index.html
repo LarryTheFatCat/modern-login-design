@@ -17,27 +17,7 @@
                 <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" required>
                 <input type="password" name="password" class="password" id="pwd" placeholder="Password" required>
                     <button type="submit" class="button" onclick="redirectAndCheck()">Sign In</button>
-                    <script>
-                        function redirectAndCheck() {
-                            const email = document.getElementsByClassName("sign-up")[0].value;
-                            const password = document.getElementsByClassName("password")[0].value;
-                            // check if the contents are in email input and password input are empty
-                            if(!email || !password) {
-                                alert("Please fill in all the fields");
-                                    return;
-                                }
-                                // check if email doesn't contain @ and .
-                                if(!email.includes("@") || !email.includes(".")) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                                // check if the password length is less then 8
-                                if(password.length < 8) {
-                                    alert("invalid email or password");
-                                    return;
-                                }
-                            }
-                    </script>
+                    <script src="script.js"></script>
 
                     <div class="forgot-password" id="no-pwd">
                         <p class="forgotpassword">
