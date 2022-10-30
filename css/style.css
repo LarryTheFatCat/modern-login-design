@@ -203,8 +203,23 @@ html {
     top: 1cm;
     text-decoration-line: underline;
 }
-/*End of major contents*/
 
+.fa-circle-exclamation {
+    color: red;
+    position: relative;
+    top: 0.2cm;
+    left: 0.2cm;
+}
+
+.fa-pwd {
+    position: relative;
+    top: 2.55cm;
+}
+
+.fa-username {
+    position: relative;
+    top: 2.06cm;
+}
 
 /*Placeholders*/
 .sign-up::placeholder {

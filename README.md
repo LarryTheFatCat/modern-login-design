@@ -65,23 +65,16 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 
 
 # Todo List
-
-- [x] Add Screenshots for: Sign up, and Forgot password screens
-- [x] Check for bugs
-- [x] Auto Assign labels and users for issues/features and pull requests
-- [x] Fully complete issue templates
-- [x] Fully complete pull request templates
-- [x] Add a Pull request auto assign label and user feature
-- [x] Finish Sign up screen
-- [x] Finish Forgot password screen
-- [x] Add google sign up button
-- [x] Fix google sign up error screen
-- [x] Add box shadowing to buttons
-- [x] Organize CSS into sections and add comments
-- [x] Include a captcha hover as a saftey provider.
-- [x] Change 'login' to sign in
-- [x] forgot password screen, change 'forgot password' to 'reset password'
-- [x] Change 'sign up' to 'create account'
+- [ ] Finish rewriting project
+- [ ] Complete Auth for username/email/password checks
+- [ ] Make code a lot easier to read
+- [ ] Add more comments
+- [ ] Jquery to Vanilla JS
+- [ ] Add debugging tools
+- [ ] Rewrite the readme.md file
+- [ ] Change license
+- [ ] Fix bugs and issues  (if any)
+- [ ] Archive Repository
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change

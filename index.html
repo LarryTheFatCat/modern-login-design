@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/17abdb2eae.js" crossorigin="anonymous"></script>
     <title>Modern-Rustic-Project</title>
 </head>
 <body>
@@ -15,30 +16,33 @@
             </div>
             <div class="inputs">
                 <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" required>
+                <i class="fa-solid fa-circle-exclamation fa-username"></i>
+                
                 <input type="password" name="password" class="password" id="pwd" placeholder="Password" required>
-                    <button type="submit" class="button" onclick="redirectAndCheck()">Sign In</button>
-                    <script src="script.js"></script>
-
-                    <div class="forgot-password" id="no-pwd">
-                        <p class="forgotpassword">
-                                Forgot Password?
-                            <a href="forgotpassword.html" class="clickHere_">
-                                <b>
-                                    Reset Here
-                                </b>
-                            </a>
-                        </p>
-                    </div>
-                    <div class="noacc">
-                        <p>
-                            Don't have an Account? 
-                            <a href="signup.html" class="noacc-ref">
-                                Create An Account
-                            </a>
-                        </p>
-                    </div>
+                <i class="fa-solid fa-circle-exclamation fa-pwd"></i>
+               
+                <button type="submit" class="button" onclick="redirectAndCheck()">Sign In</button>
+                <script src="./js/script.js"></script>
+                <div class="forgot-password" id="no-pwd">
+                    <p class="forgotpassword">
+                        Forgot Password?
+                        <a href="forgotpassword.html" class="clickHere_">
+                            <b>
+                                Reset Here
+                            </b>
+                        </a>
+                    </p>
+                </div>
+                <div class="noacc">
+                    <p>
+                        Don't have an Account? 
+                        <a href="signup.html" class="noacc-ref">
+                            Create An Account
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
