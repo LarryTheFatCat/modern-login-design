@@ -57,9 +57,9 @@ html {
     font-weight: 600;
     font-family: 'Hind Siliguri', 'Arial', sans-serif;
     font-size: 30px;
+    text-align: center;
     position: relative;
     top: 1cm;
-    left: 1cm;
 }
 
 .button {
@@ -159,16 +159,14 @@ html {
 
 .title-txt {
     position: relative;
-    top: 0.7cm;
-    left: 1cm;
-    width: 300px;
+    top: 1cm;
     text-align: center;
     font-size: 22px;
 }
 
 .emailInput {
     position: relative;
-    top: 1.8cm;
+    top: 2.5cm;
     left: 1cm;
     width: 8cm;
     height: 1cm;
@@ -182,42 +180,61 @@ html {
 
 .btnNew {
     position: relative;
-    top: 3cm;
+    top: 3.5cm;
 }
 
 .knewPwd {
     position: relative;
     top: 3.2cm;
     font-size: 14px;
-    text-align: center;
     cursor: default;
+    text-align: center;
 }
 
 .e:hover {
     color: #2a92eeaa;
 }
-
+.knew-text {
+    position: relative;
+    top: 1cm;
+}
+.click-here {
+    position: relative;
+    top: 1cm;
+    text-decoration-line: underline;
+}
 /*End of major contents*/
+
 
 /*Placeholders*/
 .sign-up::placeholder {
+    position: relative;
+    top: 0.05cm;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.859);
 }
 .emailInput::placeholder {
+    position: relative;
+    top: 0.05cm;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.859);
 }
 
 .username::placeholder {
+    position: relative;
+    top: 0.05cm;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.86);
+    color: rgba(0, 0, 0, 0.859);
 }
 .password::placeholder {
+    position: relative;
+    top: 0.05cm;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.86);
+    color: rgba(0, 0, 0, 0.859);
 }
 /*End of Placeholders*/
+
+
 /*Random CSS code I found*/
 .clickHere_ {
     color: #2A92EE;

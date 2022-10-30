@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <meta name="google-signin-client_id" content="805571329200-ugb54ccrhqedbohotdoqh34amb4t42fh.apps.googleusercontent.com">
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <meta name="google-signin-client_id" content="698702475314-ana7gf2opa6c7257ouqdg1uc6b64cuaq.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Modern-Rustic-Design</title>
 </head>
@@ -22,21 +21,23 @@
                 <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
                 <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
                 <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true"></div>
+                <script>
+                    function onSignIn(googleUser) {
+                        var profile = googleUser.getBasicProfile();
+                        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                        console.log('Name: ' + profile.getName());
+                        console.log('Image URL: ' + profile.getImageUrl());
+                        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+                    }
+                </script>
                 </div>
                 <button type="submit" class="button _button" onclick="redirectAndCheck()">Sign Up</button>
                 <script src="script.js"></script>
-                <div class="g-recaptcha"
-                data-sitekey="6Ld6ElsiAAAAAPe-eu5IS0U-ODART0K2ebCLln_9"
-                data-callback="onSubmit"
-                data-size="invisible">
-          </div>
                 <div class="existingAccount">
                     <p>
                         Already have an account? <a href="index.html" class="clickHere">Click Here</a>
                     </p>
                 </div>
-            </div>
-            <div protectedByCaptcha>
             </div>
         </div>
     </body>

@@ -102,3 +102,21 @@ Change the DataSite Key for the google Captcha V2 Badge
 Change this so you can link to a proper domain so the reCaptchaV2 Badge will actually work and not give you an error.
 
 Link the Buttons to a main page, follow color pattern so it actually looks good...
+
+Here's a script for when you want to check when someone signs in with google using the sign in btn I have created in signup.html.
+
+                <script>
+                    function onSignIn(googleUser) {
+                        // Useful data for your client-side scripts:
+                        var profile = googleUser.getBasicProfile();
+                        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+                        console.log('Full Name: ' + profile.getName());
+                        console.log('Given Name: ' + profile.getGivenName());
+                        console.log("Image URL: " + profile.getImageUrl());
+                        console.log("Email: " + profile.getEmail());
+                    
+                        // The ID token you need to pass to your backend:
+                        var id_token = googleUser.getAuthResponse().id_token;
+                        console.log("ID Token: " + id_token);
+                    }
+                </script>
