@@ -120,3 +120,10 @@ Here's a script for when you want to check when someone signs in with google usi
                         console.log("ID Token: " + id_token);
                     }
                 </script>
+
+## Minor changes you can do.
+
+Currently, the google sign in thing is broken, I don't really know how to fix it it just goes to the error screen, you can fix that yourself by going to google cloud and creating ur own credentials and stuff. I don't really know how to do that, so I just left it as is. 
+
+You can also change the colors of the buttons and stuff, I just left it as is.
+
