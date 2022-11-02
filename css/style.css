@@ -204,21 +204,15 @@ html {
     text-decoration-line: underline;
 }
 
-.fa-circle-exclamation {
-    color: red;
+#togglePassword {
     position: relative;
-    top: 0.2cm;
-    left: 0.2cm;
+    top: 2.4cm;
+    cursor: pointer;
 }
 
-.fa-pwd {
-    position: relative;
-    top: 2.55cm;
-}
-
-.fa-username {
-    position: relative;
-    top: 2.06cm;
+form i {
+    margin-left: -30px;
+    cursor: pointer;
 }
 
 /*Placeholders*/

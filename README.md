@@ -65,13 +65,11 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [ ] Finish rewriting project
 - [ ] Complete Auth for username/email/password checks
 - [ ] Make code a lot easier to read
-- [ ] Add more comments
-- [ ] Jquery to Vanilla JS
+- [x] Add more comments
 - [ ] Add debugging tools
-- [ ] Rewrite the readme.md file
+- [x] Add Password visiblity feature
 - [x] Change license
 - [ ] Fix bugs and issues  (if any)
-- [ ] Archive Repository
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change
