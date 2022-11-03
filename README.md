@@ -49,8 +49,8 @@ If you have any questions, feel free to make an issue to contact me. There will 
 
 # Credits
 
-- [Two](https://www.GitHub.com/twothreetwo/)
-- [Unlicense](https://unlicense.org/)
+- [LarryTheFatCat](https://www.github.com/larrythefatcat/)
+- [Unlicense](https://mit-license.org/)
 
 # Support
 
@@ -68,6 +68,9 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Add Password visiblity feature
 - [x] Change license
 - [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
+- [x] Add active states
+- [ ] Dark mode?
+- [ ] Add more features such as a profile page, settings page, etc.
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change
