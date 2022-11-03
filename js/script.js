@@ -12,6 +12,6 @@ togglePassword.addEventListener("click", function() {
     password.setAttribute("type", type);
 
     // toggle icon
-    this.classList.toggle("bi-eye");
+    this.classList.toggle("bi-eye-slash-fill");
 });
 

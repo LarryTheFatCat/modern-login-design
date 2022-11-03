@@ -62,7 +62,6 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 
 
 # Todo List
-- [ ] Finish rewriting project
 - [ ] Complete Auth for username/email/password checks
 - [ ] Make code a lot easier to read
 - [x] Add more comments
