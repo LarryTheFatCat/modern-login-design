@@ -17,8 +17,10 @@
                 <h1>Sign up to recieve access</h1>
             </div>
             <div class="input">
+                <!--Username and email inputs-->
                 <input type="text" class="username" id="usernme" placeholder="Username" name="username" required>
                 <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone Number" name="name" required>
+                <!--Password and password confirm input text-->
                 <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
                 <i class="bi bi-eye-fill" id="bi-eye-fill" style="cursor: pointer; position: relative; top: 2.55cm;"></i>
                 <input type="password" name="password" class="password password-confirm" id="pwd e" placeholder="Confirm Password" required>
@@ -48,28 +50,21 @@
                     this.classList.toggle("bi-eye-slash-fill");
                 });
                 </script>
+                <!--Google sign in option supported.-->
                 <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true"></div>
-               <!-- <script>
-                    function onSignIn(googleUser) {
-                        const profile = googleUser.getBasicProfile();
-                        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-                        console.log('Name: ' + profile.getName());
-                        console.log('Image URL: ' + profile.getImageUrl());
-                        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-                    }
-                </script>--> <!--@Future purposes, use this if continue to make full stack app!-->
-                </div>
-                <button type="submit" class="button _button" onclick="redirectAndCheck()">Sign Up</button>
-                <script src="./js/script.js"></script>
-                <div class="existingAccount">
-                    <p>
-                        Already have an account? <a href="index.html" class="clickHere">Click Here</a>
-                    </p>
-                </div>
+            </div>
+            <!--Sign up button with onclick reference for authentication purposes!-->
+            <button type="submit" class="button _button" onclick="redirectAndCheck()">Sign Up</button>
+            <script src="./js/script.js"></script>
+            <div class="existingAccount">
+                <p>
+                    Already have an account? <a href="index.html" class="clickHere">Click Here</a>
+                </p>
             </div>
         </div>
-    </body>
-    <footer>
-        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-    </footer>
+    </div>
+</body>
+<footer>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</footer>
 </html>

@@ -1,13 +1,13 @@
-// togglePassword to refer to the actual icon
-// password to refer to the actual input field
+// Grab variables to modify.
 const togglePassword = document.querySelector("#eye-one");
 const password = document.querySelector("#pwd");
 
 
-// On the evt that the user clicks the icon, it will switch the type to text instead of password
-// Helps make text visible.
+/**
+ * On the event that a user tries to click the eye icon, it triggers the function.
+ */
 togglePassword.addEventListener("click", function() {
-    // Set the type attribute
+    // If the type is password, then set it to text, otherwise, set it to password.
     const type = password.getAttribute("type") === "password" ? "text" : "password"; 
     password.setAttribute("type", type);
 

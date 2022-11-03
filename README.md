@@ -63,12 +63,11 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 
 # Todo List
 - [ ] Complete Auth for username/email/password checks
-- [ ] Make code a lot easier to read
+- [x] Make code a lot easier to read
 - [x] Add more comments
-- [ ] Add debugging tools
 - [x] Add Password visiblity feature
 - [x] Change license
-- [ ] Fix bugs and issues  (if any)
+- [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change
@@ -89,28 +88,25 @@ Change the DataSite Key for the google Captcha V2 Badge
 Change this so you can link to a proper domain so the reCaptchaV2 Badge will actually work and not give you an error.
 
 Link the Buttons to a main page, follow color pattern so it actually looks good...
-
-Here's a script for when you want to check when someone signs in with google using the sign in btn I have created in signup.html.
-
-                <script>
-                    function onSignIn(googleUser) {
-                        // Useful data for your client-side scripts:
-                        var profile = googleUser.getBasicProfile();
-                        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-                        console.log('Full Name: ' + profile.getName());
-                        console.log('Given Name: ' + profile.getGivenName());
-                        console.log("Image URL: " + profile.getImageUrl());
-                        console.log("Email: " + profile.getEmail());
-                    
-                        // The ID token you need to pass to your backend:
-                        var id_token = googleUser.getAuthResponse().id_token;
-                        console.log("ID Token: " + id_token);
-                    }
-                </script>
-
 ## Minor changes you can do.
 
 Currently, the google sign in thing is broken, I don't really know how to fix it it just goes to the error screen, you can fix that yourself by going to google cloud and creating ur own credentials and stuff. I don't really know how to do that, so I just left it as is. 
 
 You can also change the colors of the buttons and stuff, I just left it as is.
+
+
+Want to debug to test the google sign in button? Try this script, testing this on your own platform with the google sign in
+button will allow you to log the info of yourself and show it in console for testing purposes if you wish to know if it actually
+works or not!
+
+               <!-- <script>
+                    function onSignIn(googleUser) {
+                        const profile = googleUser.getBasicProfile(); // Grab the profile info
+                        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                        console.log('Name: ' + profile.getName()); // grab Profile Name
+                        console.log('Image URL: ' + profile.getImageUrl()); // Grab Image Name
+                        console.log('Email: ' + profile.getEmail()); // Grab email (This is the primary email)
+                        console.log('Second-email ' + profile.getEmails()[1].value); // Grab second email
+                    }
+                </script>--> <!--@Future purposes, use this if continue to make full stack app!-->
 
