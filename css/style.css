@@ -209,11 +209,6 @@ html {
     cursor: pointer;
 }
 
-form i {
-    margin-left: -30px;
-    cursor: pointer;
-}
-
 /*Placeholders*/
 .sign-up::placeholder {
     position: relative;

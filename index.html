@@ -17,8 +17,21 @@
             </div>
             <div class="inputs">
                 <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" required>
+                <span class="error-sign-up" id="error-sign-up"
+                style="
+                position: relative; 
+                top: 1.25cm;
+                right: 7.2cm;
+                color: red;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 700;
+                ">
+            </span>
+            <script>
+            </script>
                 <!-- set id to refer it to in js and is required to fill-->
                 <input type="password" name="password" class="password" id="pwd" placeholder="Password" required>
+                <span class="red error-sign-up"></span>
                 <!--Type of input refered to passwords so it hides text -- set id to refer in js and is required-->               
                 <i class="bi bi-eye-fill" id="eye-one" style="position: relative; top: 2.55cm; cursor: pointer;"></i>
                 <script>
@@ -36,7 +49,7 @@
                     this.classList.toggle("bi-eye-slash-fill");
                 });
                 </script>
-                <button type="submit" class="button" onclick="check()">Sign In</button>
+                <button type="submit" class="button" id="btn" onclick="check()">Sign In</button>
                 <!--onclick refers to how when the button is clicked, it will check for correctly inputted info.-->
                 <script src="./js/script.js"></script>
                 <div class="forgot-password" id="no-pwd">
