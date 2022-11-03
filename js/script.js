@@ -1,6 +1,8 @@
-const togglePassword = document.querySelector('#togglePassword');
+// togglePassword to refer to the actual icon
+// password to refer to the actual input field
+const togglePassword = document.querySelector("#eye-one");
 const password = document.querySelector("#pwd");
-// Set the variables as togglePassword and password to refer them in the event listner
+
 
 // On the evt that the user clicks the icon, it will switch the type to text instead of password
 // Helps make text visible.
@@ -11,4 +13,5 @@ togglePassword.addEventListener("click", function() {
 
     // toggle icon
     this.classList.toggle("bi-eye");
-})
+});
+
