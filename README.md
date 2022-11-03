@@ -71,6 +71,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Add active states
 - [ ] Dark mode?
 - [ ] Add more features such as a profile page, settings page, etc.
+- [ ] Update screenshots
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change
