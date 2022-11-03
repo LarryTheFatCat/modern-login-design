@@ -5,14 +5,13 @@
 This is a simple, modern, and easy to use UI template that is built with HTML, CSS and JavaScript. It is fully responsive and works on all devices. It is also very easy to customize and use. It is built with the latest technologies and is very fast and lightweight. 
 
 # Screenshots
-<img src="imgs/login.png" alt="">
+<img src="./imgs/login.png" alt="">
 <br>
-<img src="imgs/forgotpassword.png" alt="">
+<img src="./imgs/forgotpassword.png" alt="">
 <br>
-<img src="imgs/signup.png" alt="">
-<img src="forgotpassword.png" alt="">
+<img src="./imgs/forgotpassword.png" alt="">
 <br>
-<img src="signup.png" alt="">
+<img src="./imgs/signup.png" alt="">
 # Installation
 
 1. Download the files from the repository
@@ -71,7 +70,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Add active states
 - [ ] Dark mode?
 - [ ] Add more features such as a profile page, settings page, etc.
-- [ ] Update screenshots
+- [x] Update screenshots
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change
