@@ -67,7 +67,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
 - [x] Add active states
 - [ ] Dark mode?
-- [ ] Add settings page
+- [x] Add settings page
 - [x] Update screenshots
 # Notes
 
@@ -115,4 +115,9 @@ works or not!
 How to use the authentication:
 
 The authentication I have provided comes in 2 ways, one with Regex, a very secure and fast way of processing data and checking for validation, the second way is also using Regex but using a specific pattern it must follow, so that means it won't actually check for a valid email, it will just check if actually uses @ and . in the email, and if it does, it will return true, if not, it will return false. You can change that by going to script.js and rewriting the entire __check__ function to your liking, as well as the pattern in forgotpassword.html.
+
+
+# Credit
+
+https://codepen.io/erikterwan/pen/EVzeRP <- I decided to take the menu for it as I just didn't want to make a full hamburger menu lol... It works with the design
 
