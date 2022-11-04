@@ -9,8 +9,6 @@ This is a simple, modern, and easy to use UI template that is built with HTML, C
 <br>
 <img src="./imgs/forgotpassword.png" alt="">
 <br>
-<img src="./imgs/forgotpassword.png" alt="">
-<br>
 <img src="./imgs/signup.png" alt="">
 # Installation
 
