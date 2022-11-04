@@ -18,44 +18,44 @@
             </div>
             <div class="input">
                 <!--Username and email inputs-->
-                <input type="text" class="username" id="usernme" placeholder="Username" name="username" required>
-                <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone Number" name="name" required>
-                <!--Password and password confirm input text-->
-                <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
-                <i class="bi bi-eye-fill" id="bi-eye-fill" style="cursor: pointer; position: relative; top: 2.55cm;"></i>
-                <input type="password" name="password" class="password password-confirm" id="pwd e" placeholder="Confirm Password" required>
-                <i class="bi bi-eye-fill" id="bi-eye-fill-t" style="cursor: pointer; position: relative; top: 3.27cm;"></i>
+                <form action="#">
+                    <input type="text" class="username" id="usernme" placeholder="Username" name="username" required>
+                    <input type="text" class="sign-up sign-up-one" id="signup" placeholder="Email/Phone Number" name="name" required>
+                    <input type="password" name="password" class="password password-one" id="pwd" placeholder="Password" required>
+                    <i class="bi bi-eye-fill" id="bi-eye-fill" style="cursor: pointer; position: relative; top: 2.55cm;"></i>
+                    <input type="password" name="password" class="password password-confirm" id="pwd" placeholder="Confirm Password" required>
+                    <i class="bi bi-eye-fill" id="bi-eye-fill-t" style="cursor: pointer; position: relative; top: 3.27cm;"></i>
+                    <button type="submit" class="button _button" onclick="check()">Sign Up</button>
+                </form>
                 <script>
-                // togglePassword to refer to the actual icon
-                // password to refer to the actual input field
-                const togglePassword = document.querySelector("#bi-eye-fill");
-                const password = document.querySelector("#pwd");
-                const confirmPassword = document.querySelector("#bi-eye-fill-t");
-                const passwordConfirmBox = document.querySelector(".password-confirm")
-                
-                // On the evt that the user clicks the icon, it will switch the type to text instead of password
-                // Helps make text visible.
-                togglePassword.addEventListener("click", function() {
-                    // Set the type attribute
-                    const type = password.getAttribute("type") === "password" ? "text" : "password"; 
-                    password.setAttribute("type", type);
-                    // toggle icon
-                    this.classList.toggle("bi-eye-slash");
-                });
-                confirmPassword.addEventListener("click", function() {
-                    // Set the type attribute
-                    const text = passwordConfirmBox.getAttribute("type") === "password" ? "text" : "password"; 
-                    passwordConfirmBox.setAttribute("type", text);
-                    // toggle icon
-                    this.classList.toggle("bi-eye-slash-fill");
-                });
-                </script>
+                    // togglePassword to refer to the actual icon
+                    // password to refer to the actual input field
+                    const togglePassword = document.querySelector("#bi-eye-fill");
+                    const password = document.querySelector("#pwd");
+                    const confirmPassword = document.querySelector("#bi-eye-fill-t");
+                    const passwordConfirmBox = document.querySelector(".password-confirm")
+                    
+                    // On the evt that the user clicks the icon, it will switch the type to text instead of password
+                    // Helps make text visible.
+                    togglePassword.addEventListener("click", function() {
+                        // Set the type attribute
+                        const type = password.getAttribute("type") === "password" ? "text" : "password"; 
+                        password.setAttribute("type", type);
+                        // toggle icon
+                        this.classList.toggle("bi-eye-slash");
+                    });
+                    confirmPassword.addEventListener("click", function() {
+                        // Set the type attribute
+                        const text = passwordConfirmBox.getAttribute("type") === "password" ? "text" : "password"; 
+                        passwordConfirmBox.setAttribute("type", text);
+                        // toggle icon
+                        this.classList.toggle("bi-eye-slash-fill");
+                    });
+                    </script>
                 <!--Google sign in option supported.-->
                 <div class="g-signin2" data-onsuccess="onSignIn" data-width="300" data-longtitle="true"></div>
             </div>
             <!--Sign up button with onclick reference for authentication purposes!-->
-            <button type="submit" class="button _button" onclick="redirectAndCheck()">Sign Up</button>
-            <script src="./js/script.js"></script>
             <div class="existingAccount">
                 <p>
                     Already have an account? <a href="index.html" class="clickHere">Click Here</a>
@@ -63,6 +63,7 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 <footer>
     <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>

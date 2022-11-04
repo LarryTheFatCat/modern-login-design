@@ -16,42 +16,16 @@
                 <h1 class="title">Sign In to Your Account</h1>
             </div>
             <div class="inputs">
-                <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" required>
-                <span class="error-sign-up" id="error-sign-up"
-                style="
-                position: relative; 
-                top: 1.25cm;
-                right: 7.2cm;
-                color: red;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-weight: 700;
-                ">
-            </span>
-            <script>
-            </script>
+                <form action="#">
+                    <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" aria-label="Password" required>
+                    <input type="password" name="password" class="password" id="pwd" placeholder="Password" aria-label="Password" required>
+                    <button type="submit" class="button" id="btn" onclick="check()">Sign In</button>
+                </form>
                 <!-- set id to refer it to in js and is required to fill-->
-                <input type="password" name="password" class="password" id="pwd" placeholder="Password" required>
-                <span class="red error-sign-up"></span>
+                <span class="error-sign-up" id="error-sign-up-password" style="position: relative; top: 2cm; right: -1cm; color: rgb(117, 0, 0);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 700;display: none;width: 0.5cm;height: 0cm;"></span>
                 <!--Type of input refered to passwords so it hides text -- set id to refer in js and is required-->               
-                <i class="bi bi-eye-fill" id="eye-one" style="position: relative; top: 2.55cm; cursor: pointer;"></i>
-                <script>
-                // Grab variables to modify.
-                const togglePassword = document.querySelector("#eye-one");
-                const password = document.querySelector("#pwd");
-                /**
-                 * On the event that a user tries to click the eye icon, it triggers the function.
-                 * */
-                togglePassword.addEventListener("click", function() {
-                    // If the type is password, then set it to text, otherwise, set it to password.
-                    const type = password.getAttribute("type") === "password" ? "text" : "password"; 
-                    password.setAttribute("type", type);
-                    // toggle icon
-                    this.classList.toggle("bi-eye-slash-fill");
-                });
-                </script>
-                <button type="submit" class="button" id="btn" onclick="check()">Sign In</button>
+                <i class="bi bi-eye-fill" id="eye-one" style="position: relative; top: 0.65cm; left: 8cm; cursor: pointer;"></i>
                 <!--onclick refers to how when the button is clicked, it will check for correctly inputted info.-->
-                <script src="./js/script.js"></script>
                 <div class="forgot-password" id="no-pwd">
                     <p class="forgotpassword">
                         Forgot Password?
@@ -73,5 +47,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

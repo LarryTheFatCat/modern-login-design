@@ -61,7 +61,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 
 
 # Todo List
-- [ ] Complete Auth for username/email/password checks
+- [x] Complete Auth for username/email/password checks
 - [x] Make code a lot easier to read
 - [x] Add more comments
 - [x] Add Password visiblity feature
@@ -69,7 +69,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
 - [x] Add active states
 - [ ] Dark mode?
-- [ ] Add more features such as a profile page, settings page, etc.
+- [ ] Add settings page
 - [x] Update screenshots
 # Notes
 
