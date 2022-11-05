@@ -67,7 +67,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
 - [x] Add active states
 - [ ] Dark mode?
-- [x] Add settings page
+- [ ] Add settings page
 - [x] Update screenshots
 # Notes
 
@@ -118,6 +118,3 @@ The authentication I have provided comes in 2 ways, one with Regex, a very secur
 
 
 # Credit
-
-https://codepen.io/erikterwan/pen/EVzeRP <- I decided to take the menu for it as I just didn't want to make a full hamburger menu lol... It works with the design
-
