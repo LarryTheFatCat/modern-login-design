@@ -67,7 +67,7 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 - [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
 - [x] Add active states
 - [ ] Dark mode?
-- [x] Add dropdown Menu
+- [x] Dark mode Btn
 - [x] Update screenshots
 # Notes
 

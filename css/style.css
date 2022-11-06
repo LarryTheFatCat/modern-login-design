@@ -19,7 +19,7 @@ html {
     justify-content: center;
     width: 10cm;
     height: 10cm;
-    background-color: #fdfeff;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
@@ -209,23 +209,13 @@ html {
     cursor: pointer;
 }
 
-.fa-gear {
-    position: relative;
-    left: -14cm;
-    top: -13.5cm;
-    cursor: pointer;
+.settings {
+    position: absolute;
+    top: 1cm;
+    left: 1cm;
 }
 
-.menu {
-    position: relative;
-    top: -12.5cm;
-    left: -13.5cm;
-}
-.checkbox-menu {
-    position: relative;
-    top: -13cm;
-    left: -13.5cm;
-}
+/**End of random placeholders**/
 
 /*Placeholders*/
 .sign-up::placeholder {

@@ -7,7 +7,6 @@ const password = document.getElementById("pwd");
 const sendResetPwd = document.getElementById("noEmailPwd");
 const checkBox = document.querySelector('#checkbox');
 
-
 function check() {
     let email = document.getElementById("signup");
     let password = document.getElementById("pwd");
@@ -41,12 +40,6 @@ togglePassword.addEventListener("click", function() {
     // toggle icon
     this.classList.toggle("bi-eye-slash-fill");
 });
-
-$('#settings').click(function() {
-    $('#dropDown').toggle(function() {
-      // Animation complete.
-    });
-  });
 
   document.addEventListener('change', () => {
     // Change theme to black
