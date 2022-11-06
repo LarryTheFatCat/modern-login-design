@@ -5,7 +5,6 @@ const button = document.getElementById("btn");
 const togglePassword = document.getElementById("eye-one");
 const password = document.getElementById("pwd");
 const sendResetPwd = document.getElementById("noEmailPwd");
-const checkBox = document.querySelector('#checkbox');
 
 function check() {
     let email = document.getElementById("signup");
@@ -39,13 +38,4 @@ togglePassword.addEventListener("click", function() {
     password.setAttribute("type", type);
     // toggle icon
     this.classList.toggle("bi-eye-slash-fill");
-});
-
-  document.addEventListener('change', () => {
-    // Change theme to black
-    if (checkBox.checked) {
-        document.body.classList.add('dark');
-    } else {
-        document.body.classList.remove('dark');
-    }
 });
