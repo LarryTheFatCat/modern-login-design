@@ -1,5 +1,4 @@
-## Modern Rustic Login, Sign Up, Forgot password, and main screen UI
-
+## Modern Rustic Login, Sign Up, Forgot password
 # Features
 
 This is a simple, modern, and easy to use UI template that is built with HTML, CSS and JavaScript. It is fully responsive and works on all devices. It is also very easy to customize and use. It is built with the latest technologies and is very fast and lightweight. 
