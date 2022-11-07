@@ -114,6 +114,3 @@ works or not!
 How to use the authentication:
 
 The authentication I have provided comes in 2 ways, one with Regex, a very secure and fast way of processing data and checking for validation, the second way is also using Regex but using a specific pattern it must follow, so that means it won't actually check for a valid email, it will just check if actually uses @ and . in the email, and if it does, it will return true, if not, it will return false. You can change that by going to script.js and rewriting the entire __check__ function to your liking, as well as the pattern in forgotpassword.html.
-
-
-# Credit
