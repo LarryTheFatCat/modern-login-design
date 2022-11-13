@@ -3,7 +3,7 @@ name: Feature Request
 about: Create a feature request to help me improve this template
 title: ''
 labels: 'feature'
-assignees: 'TwoThreeTwo'
+assignees: 'LarryTheFatCat'
 
 --- 
 
