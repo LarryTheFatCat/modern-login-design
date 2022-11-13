@@ -55,18 +55,6 @@ Have any issues? Feel free to open an issue on the GitHub repository and I will 
 # Contributing
 
 Feel free to contribute to this project by opening a pull request on the GitHub repository. I will review it and merge it if it is good.
-
-
-# Todo List
-- [x] Complete Auth for username/email/password checks
-- [x] Make code a lot easier to read
-- [x] Add more comments
-- [x] Add Password visiblity feature
-- [x] Change license
-- [x] Fix bugs and issues  (if any) <-- No determined bugs so far, will update to continue
-- [x] Add active states
-- [x] Dark mode Btn
-- [x] Update screenshots
 # Notes
 
 Just so you guys know if you do wanna use this, there are a couple things to change

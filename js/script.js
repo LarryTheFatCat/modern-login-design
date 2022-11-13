@@ -1,4 +1,3 @@
-
 // Grab variables to modify.
 const email = document.getElementById("signup");
 const button = document.getElementById("btn");
