@@ -14,7 +14,6 @@ html {
 
 }
 
-/*Major Buttons / Inputs */
 .card {
     justify-content: center;
     width: 10cm;
@@ -214,9 +213,8 @@ html {
     top: 1cm;
     left: 1cm;
 }
-/**End of random placeholders**/
 
-/*Placeholders*/
+
 .sign-up::placeholder {
     position: relative;
     top: 0.05cm;
@@ -242,9 +240,6 @@ html {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.859);
 }
-/*End of Placeholders*/
-
-/*Random CSS code I found*/
 .clickHere_ {
     color: #2A92EE;
 }
@@ -285,8 +280,6 @@ a {
     top: 3.2cm;
 }
 
-
-
 .clickHere {
     font-weight: 600;
     color: #2A92EE;
@@ -296,4 +289,13 @@ a {
     position: relative;
     top: 4cm;
 }
-/*End of Random CSS code I found*/
+
+
+@media screen and (max-width: 320px) {
+    .card {
+        margin-top: 2cm;
+    }
+    .new {
+        margin: 3cm 1cm 3cm 1cm;
+    }
+}

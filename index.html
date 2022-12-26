@@ -16,16 +16,14 @@
                 <h1 class="title">Sign In to Your Account</h1>
             </div>
             <div class="inputs">
+                <!-- We use form to process HTTP requests to get info from a user and process it -->
                 <form action="#">
                     <input type="text" class="sign-up" id="signup" placeholder="Username/Email/Phone Number" name="name" aria-label="Password" required>
                     <input type="password" name="password" class="password" id="pwd" placeholder="Password" aria-label="Password" required>
                     <button type="submit" class="button" id="btn" onclick="check()">Sign In</button>
                 </form>
-                <!-- set id to refer it to in js and is required to fill-->
                 <span class="error-sign-up" id="error-sign-up-password" style="position: relative; top: 2cm; right: -1cm; color: rgb(117, 0, 0);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 700;display: none;width: 0.5cm;height: 0cm;"></span>
-                <!--Type of input refered to passwords so it hides text -- set id to refer in js and is required-->               
                 <i class="bi bi-eye-fill" id="eye-one" style="position: relative; top: 0.65cm; left: 8cm; cursor: pointer;"></i>
-                <!--onclick refers to how when the button is clicked, it will check for correctly inputted info.-->
                 <div class="forgot-password" id="no-pwd">
                     <p class="forgotpassword">
                         Forgot Password?
