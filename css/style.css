@@ -299,3 +299,15 @@ a {
         margin: 3cm 1cm 3cm 1cm;
     }
 }
+
+.error-sign-up {
+    position: relative; 
+    top: 2cm; 
+    right: -1cm; 
+    color: rgb(117, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    display: none;
+    width: 0.5cm;
+    height: 0cm;
+}

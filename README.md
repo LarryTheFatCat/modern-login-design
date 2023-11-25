@@ -60,17 +60,10 @@ Feel free to contribute to this project by opening a pull request on the GitHub 
 Just so you guys know if you do wanna use this, there are a couple things to change
 
 
-## Major changes you must do.
+## Changes For Real Time Use
 
-Change the DataSite Key for the google Captcha V2 Badge
-
-``` 
-                <div class="g-recaptcha"
-                **data-sitekey=""**
-                data-callback="onSubmit"
-                data-size="invisible">
-          </div>
-```
+A possible change that you can do for real time use is to add a data-site key as well as to look over the docs provided by Google 
+[Right-Here](https://developers.google.com/identity/sign-in/web/build-button)
 
 Change this so you can link to a proper domain so the reCaptchaV2 Badge will actually work and not give you an error.
 
