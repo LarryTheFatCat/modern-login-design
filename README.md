@@ -66,7 +66,7 @@ Change the DataSite Key for the google Captcha V2 Badge
 
 ``` 
                 <div class="g-recaptcha"
-                **data-sitekey="6Ld6ElsiAAAAAPe-eu5IS0U-ODART0K2ebCLln_9"**
+                **data-sitekey=""**
                 data-callback="onSubmit"
                 data-size="invisible">
           </div>
