@@ -1,4 +1,4 @@
-## Modern Remove Fruitiness Login, Sign Up, Forgot password
+## Login, Sign Up, Forgot password Screen For Websites
 # Features
 
 This is a simple, modern, and easy to use UI template that is built with HTML, CSS and JavaScript. It is fully responsive and works on all devices. It is also very easy to customize and use. It is built with the latest technologies and is very fast and lightweight. 
